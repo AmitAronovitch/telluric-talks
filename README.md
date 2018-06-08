@@ -1,5 +1,10 @@
 # telluric
 
+Display slides from gh-pages:
+
+* [lightning-talk](https://amitaronovitch.github.io/telluric-talks/lightning-talk/)
+* [pycon-il](https://amitaronovitch.github.io/telluric-talks/pycon-il/)
+
 Press the button to launch a cloud Jupyter notebook with the talk.
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/Juanlu001/telluric-lightning-talk/master?filepath=Talk.ipynb)
