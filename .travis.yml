@@ -6,6 +6,9 @@ python:
 install:
   - "pip install -r requirements.txt"
 
+script:
+  - "echo done"
+
 before_deploy:
   - "make"
 
