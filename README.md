@@ -3,7 +3,9 @@
 Display slides from gh-pages:
 
 * [lightning-talk](https://amitaronovitch.github.io/telluric-talks/lightning-talk/)
+* [pybcn](https://amitaronovitch.github.io/telluric-talks/pybcn/)
 * [pycon-il](https://amitaronovitch.github.io/telluric-talks/pycon-il/)
+* [siglibre](https://amitaronovitch.github.io/telluric-talks/siglibre/)
 
 Press the button to launch a cloud Jupyter notebook with the talk.
 
