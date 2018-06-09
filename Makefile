@@ -1,5 +1,5 @@
-TALKS ::= lightning-talk pybcn pycon-il siglibre
-TALK_HTMLS ::= $(foreach talk,$(TALKS),$(talk)/index.html)
+TALKS = lightning-talk pybcn pycon-il siglibre
+TALK_HTMLS = $(foreach talk,$(TALKS),$(talk)/index.html)
 
 all: $(TALK_HTMLS)
 
