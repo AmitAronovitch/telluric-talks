@@ -1,0 +1,25 @@
+language: python
+
+python:
+  - "3.6"
+
+install:
+  - "pip install -r requirements.txt"
+
+script:
+  - "echo done"
+
+before_deploy:
+  - "make"
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: master
+    python: "3.6"
+
+cache:
+  apt: true
+  pip: true
